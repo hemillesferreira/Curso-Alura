@@ -1,7 +1,7 @@
 let pontos = prompt('Qual a sua pontuacao')
-
-if (pontos >= '100'){
-    alert('Parabens')
+pontos = parseInt(pontos)
+if(pontos >= '100'){
+    alert('Parabéns, você venceu!')
 }else{
-    alert('Tente novamente')
+    alert(' Tente novamente para ganhar.')
 }

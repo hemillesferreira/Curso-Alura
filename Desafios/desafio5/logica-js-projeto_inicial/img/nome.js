@@ -1,0 +1,1 @@
+let nome = prompt('digite seu nome')
